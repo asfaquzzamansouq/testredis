@@ -50,7 +50,7 @@ class SK_REDIS{
 		
 	}
 }
-
+//test
 $redisObj=new SK_REDIS();
 $redisObj->set_hash_value();
 
