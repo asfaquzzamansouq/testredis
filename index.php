@@ -1,4 +1,8 @@
 <?php
+<<<<<<< HEAD
+=======
+<?php
+>>>>>>> feature/feature-001
 require dirname(__FILE__) ."/predis/autoload.php";
 Predis\Autoloader::register();
 
@@ -12,9 +16,15 @@ class SK_REDIS{
 			//print_r($this->redis->info());
 			//exit;
 		}
+<<<<<<< HEAD
 		catch (Exception $e) {
 			echo "Couldn't connected to Redis";
 			echo $e->getMessage();
+=======
+		catch (Exception $e) {
+			echo "Couldn't connected to Redis";
+			echo $e->getMessage();
+>>>>>>> feature/feature-001
 		}
 	}
 
@@ -58,3 +68,8 @@ $redisObj->set_hash_value();
 
 
 ?>
+<<<<<<< HEAD
+=======
+
+?>
+>>>>>>> feature/feature-001
